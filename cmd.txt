@@ -1,0 +1,6 @@
+1 启动爬虫
+scrapy runspider tn.py
+
+2 发起首页爬取地址  lpush  keys值
+
+lpush tn_urls http://www.taonanw.com/page/search_result_v2/p/\d+/searh_type/search_quick/page_key/93e0a62a085397e93da5ed4bb727e0be/match_gender/1/match_r_city_id/440300/match_age_min/22/match_age_max/26/items_file/search_result_v2/total/2000/match_r_state_id/1339/n/20/list_style/2
